@@ -1,0 +1,44 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  img{
+    max-width: 200px;
+    align-self: center;
+  }
+  a{
+    width: fit-content;
+    text-decoration: none;
+    color: #222;
+  }
+}
+
+
+.projects{
+    border: 5px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+}
+
+.projectContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+@media(width>=800px){
+  .projectContainer{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}

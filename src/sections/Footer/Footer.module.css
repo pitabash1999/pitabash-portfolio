@@ -1,0 +1,6 @@
+.container{
+  
+  p{
+    color: var(--footer-text-color)
+  };
+}
